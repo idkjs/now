@@ -4,11 +4,11 @@
 
 # now
 
-Learning [`Drom`](https://ocamlpro.github.io/drom/)
+Learning to use the [`Drom`](https://ocamlpro.github.io/drom/) build system for ocam/reasonml projects.
 
 - This is a port of for starting [now.ml](https://github.com/spencerwi/now.ml) project to [reasonml](https://reasonml.github.io/) using `drom`.
 
-It took nothing at all to compile with reason. Apparently, `drom` is aware of reason syntax files.
+It took nothing at all to compile with reason. Apparently, `drom` is aware of reason syntax files. This is a really nice addition to the options for building with reason/ocaml and might be my go to option to start a project. Thanks to the folks at [`OCamlPro`](https://github.com/OCamlPro?type=source)
 
 # Examples
 ```sh
@@ -29,7 +29,7 @@ $ now minus 5 days
 
 # Installing on your system
 
-```powershell
+```sh
 [I] ➜ drom install
 Warning: drom is not correctly installed in this switch:
 /Users/mandalarian/Downloads/now/_opam/share/drom/skeletons is missing
@@ -98,3 +98,5 @@ now on  reason [✘!?] via ⬢ v14.4.0
  [I] ➜ now minus 5 days
 2021-01-05T13:28:39
 ```
+
+[repo](https://github.com/idkjs/now)
