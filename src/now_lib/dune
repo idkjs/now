@@ -4,9 +4,9 @@
   (name now_lib)
   (public_name now_lib)
   (wrapped true)
-  (libraries  )
-  
-  
+  (libraries calendar)
+
+
   )
 
 
