@@ -1,0 +1,5 @@
+kind = "program"
+name = "now"
+skeleton = "driver"
+[dependencies]
+now_lib = "version"

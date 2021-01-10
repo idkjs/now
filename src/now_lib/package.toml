@@ -1,0 +1,4 @@
+gen-version = "version.ml"
+kind = "library"
+name = "now_lib"
+skeleton = "library"
